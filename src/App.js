@@ -5,14 +5,12 @@ import Home from './pages/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import { SnackSystemContextProvider} from './contexts/SnackSystemContext';
-import { TemplateContextProvider} from './contexts/TemplateContext';
 import { UserDataManagementContextProvider } from './contexts/UserDataManagementContext';
 
 
 function App() {
   return (
     <div className="App">
-       <TemplateContextProvider>
        <SnackSystemContextProvider>
        <UserDataManagementContextProvider>
       <Router>
@@ -24,7 +22,6 @@ function App() {
       </Router>
       </UserDataManagementContextProvider>
       </SnackSystemContextProvider>   
-      </TemplateContextProvider>
     </div>
   );
 }

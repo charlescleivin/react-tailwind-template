@@ -12,6 +12,7 @@ export default function Home() {
         <p>Preset:</p>
         <p>NavBar & Footer component</p>
         <p>Pages, Components, Contexts & Assets Folder</p>
+        <p>A few contexts: SnackSystemContext, UserDataManagementContext, TemplateContext</p>
         
         <p>This was cloned from https://github.com/charlescleivin/react-tailwind-template</p>
         
